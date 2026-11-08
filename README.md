@@ -1,6 +1,6 @@
-# Skills
+# Claude plugin marketplace
 
-This repository contains the marketplace manifest for my custom Claude Code skills
+This repository contains the marketplace manifest for my custom Claude Code plugins & skills.
 
 ## Available skills
 
@@ -15,7 +15,7 @@ This repository contains the marketplace manifest for my custom Claude Code skil
 Add the marketplace in Claude Code:
 
 ```text
-/plugin marketplace add duckysmacky/skills
+/plugin marketplace add duckysmacky/duckysmacky-plugin-marketplace
 ```
 
 Then choose a skill from the table and install it by replacing `<skill-name>` with its name:
