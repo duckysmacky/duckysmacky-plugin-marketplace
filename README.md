@@ -59,3 +59,13 @@ codex plugin add <skill-name>@duckysmacky
 4. Select the **Duckysmacky** marketplace, choose a plugin, and install it.
 5. Start a new chat to use the plugin.
 
+## Other agents
+
+For agents supported by the [skills CLI](https://github.com/vercel-labs/skills), install the skills from each plugin's repository:
+
+```sh
+npx skills add duckysmacky/<skill-name>
+```
+
+Choose the skills and target agents when prompted. This installs skills only; plugin integrations such as custom MCP servers require separate configuration.
+
