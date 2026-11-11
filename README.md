@@ -9,6 +9,7 @@ This repository contains marketplace manifests for my custom Claude Code and Cod
 | `context-manager` | v1.1.0 | Preserve engineering context across long-running tasks, sessions, and coding agents. | [duckysmacky/context-manager-skill](https://github.com/duckysmacky/context-manager-skill) |
 | `guitar-setup` | v1.0.0 | Configure guitar and amplifier settings to play a certain song | [duckysmacky/guitar-setup-skill](https://github.com/duckysmacky/guitar-setup-skill) |
 | `loom` | v1.3.0 | Drive your self-hosted Loom graph (projects, studies, ideas) from Claude | [duckysmacky/loom](https://github.com/duckysmacky/loom) |
+| `lid-guard` | v1.0.0 | Keeps a Linux laptop awake with the lid closed while an AI coding agent works | [duckysmacky/lid-guard-plugin](https://github.com/duckysmacky/lid-guard-plugin) |
 
 ## Add the marketplace
 

@@ -47,6 +47,16 @@
 	  "description": "Drive your self-hosted Loom graph (projects, studies, ideas) from Claude",
 	  "category": "productivity",
 	  "tags": ["loom", "mcp", "projects", "learning"]
-	}
+	},
+    {
+      "name": "lid-guard",
+      "source": {
+        "source": "github",
+        "repo": "duckysmacky/lid-guard-plugin"
+      },
+      "description": "Keeps a Linux laptop awake with the lid closed while an AI coding agent works, using a systemd-logind inhibitor lock. Modes: off, task, session.",
+      "category": "utility",
+      "tags": ["lid", "suspend", "systemd", "laptop", "hooks"]
+    }
   ]
 }
