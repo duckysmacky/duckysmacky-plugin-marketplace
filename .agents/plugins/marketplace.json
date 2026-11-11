@@ -1,0 +1,45 @@
+{
+  "name": "duckysmacky",
+  "interface": {
+    "displayName": "Duckysmacky"
+  },
+  "plugins": [
+    {
+      "name": "context-manager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/duckysmacky/context-manager-skill.git"
+      },
+      "policy": {
+		  "installation": "AVAILABLE",
+		  "authentication": "ON_INSTALL"
+	  },
+      "category": "Development"
+    },
+    {
+      "name": "guitar-setup",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/duckysmacky/guitar-setup-skill.git"
+      },
+      "policy": {
+		  "installation": "AVAILABLE",
+		  "authentication": "ON_INSTALL"
+	  },
+      "category": "Productivity"
+    },
+    {
+      "name": "loom",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/duckysmacky/loom.git",
+        "path": "./claude-plugin"
+      },
+      "policy": {
+		  "installation": "AVAILABLE",
+		  "authentication": "ON_INSTALL"
+	  },
+      "category": "Productivity"
+    }
+  ]
+}
