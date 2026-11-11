@@ -42,7 +42,7 @@
 	  "source": {
 		"source": "git-subdir",
 		"url": "https://github.com/duckysmacky/loom.git",
-		"path": "claude-plugin"
+		"path": "agent-plugin"
 	  },
 	  "description": "Drive your self-hosted Loom graph (projects, studies, ideas) from Claude",
 	  "category": "productivity",
