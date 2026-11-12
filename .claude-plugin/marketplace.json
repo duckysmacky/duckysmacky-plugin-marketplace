@@ -57,6 +57,16 @@
       "description": "Keeps a Linux laptop awake with the lid closed while an AI coding agent works, using a systemd-logind inhibitor lock. Modes: off, task, session.",
       "category": "utility",
       "tags": ["lid", "suspend", "systemd", "laptop", "hooks"]
+    },
+    {
+      "name": "german-mode",
+      "source": {
+        "source": "github",
+        "repo": "duckysmacky/german-mode-skill"
+      },
+      "description": "Practice German in every conversation: the agent answers in German at your level, translates harder words into your own language(s), and adds a short vocabulary and corrections summary.",
+      "category": "utility",
+      "tags": ["german", "language-learning", "deutsch", "vocabulary", "practice"]
     }
   ]
 }

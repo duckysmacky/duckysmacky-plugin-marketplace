@@ -52,6 +52,18 @@
 		  "authentication": "ON_INSTALL"
 	  },
       "category": "Productivity"
+    },
+    {
+      "name": "german-mode",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/duckysmacky/german-mode-skill.git"
+      },
+      "policy": {
+		  "installation": "AVAILABLE",
+		  "authentication": "ON_INSTALL"
+	  },
+      "category": "Productivity"
     }
   ]
 }
