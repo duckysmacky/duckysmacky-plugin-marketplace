@@ -6,10 +6,10 @@ This repository contains marketplace manifests for my custom Claude Code and Cod
 
 | Plugin name | Version | Description | Repository |
 | --- | --- | --- | --- |
-| `context-manager` | v1.1.0 | Preserve engineering context across long-running tasks, sessions, and coding agents. | [duckysmacky/context-manager-skill](https://github.com/duckysmacky/context-manager-skill) |
-| `guitar-setup` | v1.0.0 | Configure guitar and amplifier settings to play a certain song | [duckysmacky/guitar-setup-skill](https://github.com/duckysmacky/guitar-setup-skill) |
-| `loom` | v1.3.0 | Drive your self-hosted Loom graph (projects, studies, ideas) from Claude | [duckysmacky/loom](https://github.com/duckysmacky/loom) |
-| `lid-guard` | v1.0.0 | Keeps a Linux laptop awake with the lid closed while an AI coding agent works | [duckysmacky/lid-guard-plugin](https://github.com/duckysmacky/lid-guard-plugin) |
+| Context manager | v1.1.0 | Preserve engineering context across long-running tasks, sessions, and coding agents. | [duckysmacky/context-manager-skill](https://github.com/duckysmacky/context-manager-skill) |
+| Guitar setup | v1.0.0 | Configure guitar and amplifier settings to play a certain song | [duckysmacky/guitar-setup-skill](https://github.com/duckysmacky/guitar-setup-skill) |
+| Loom | v1.3.0 | Drive your self-hosted Loom graph (projects, studies, ideas) with agents | [duckysmacky/loom](https://github.com/duckysmacky/loom) |
+| Lid guard` | v1.0.0 | Keeps a Linux laptop awake with the lid closed while an AI coding agent works | [duckysmacky/lid-guard-plugin](https://github.com/duckysmacky/lid-guard-plugin) |
 
 ## Add the marketplace
 
@@ -23,10 +23,10 @@ Add the marketplace in Claude Code:
 claude plugin marketplace add duckysmacky/duckysmacky-plugin-marketplace
 ```
 
-Then choose a skill from the table and install it by replacing `<skill-name>` with its name:
+Then choose a plugin from the table and install it by replacing `<plugin>` with its name:
 
 ```sh
-claude plugin install <skill-name>@duckysmacky
+claude plugin install <plugin>@duckysmacky
 ```
 
 #### Claude app (desktop and web)
@@ -46,10 +46,10 @@ Add the marketplace from a terminal:
 codex plugin marketplace add duckysmacky/duckysmacky-plugin-marketplace
 ```
 
-Then choose a skill from the table and install it by replacing `<skill-name>` with its name:
+Then choose a plugin from the table and install it by replacing `<plugin>` with its name:
 
 ```sh
-codex plugin add <skill-name>@duckysmacky
+codex plugin add <plugin>@duckysmacky
 ```
 
 #### ChatGPT app
@@ -62,10 +62,10 @@ codex plugin add <skill-name>@duckysmacky
 
 ## Other agents
 
-For agents supported by the [skills CLI](https://github.com/vercel-labs/skills), install the skills from each plugin's repository:
+For agents supported by the [skills CLI](https://github.com/vercel-labs/skills), install the skills from each plugin's **repository**:
 
 ```sh
-npx skills add duckysmacky/<skill-name>
+npx skills add duckysmacky/<plugin-repository>
 ```
 
 Choose the skills and target agents when prompted. This installs skills only; plugin integrations such as custom MCP servers require separate configuration.
